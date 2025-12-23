@@ -1,0 +1,29 @@
+Script started on 2025-12-21 22:48:23+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="214" LINES="67"]
+]0;ubuntu2@codeby: ~[01;32mubuntu2@codeby[00m:[01;34m~[00m$ exitscript nginx-log.txtystemctl status custom-nginx[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@udo systemctl start[C[C[C[C[C[C[C[C[C[C[C[C[C[1@enable[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pstart[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pystemctl status[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?1h=[0;1;32m●[0m custom-nginx.service - Custom Nginx Service[m
+     Loaded: loaded (/etc/systemd/system/custom-nginx.service; enabled; vendor preset: enabled)[m
+     Active: [0;1;32mactive (running)[0m since Sun 2025-12-21 22:46:35 MSK; 1min 59s ago[m
+    Process: 9417 ExecStart=/usr/sbin/nginx (code=exited, status=0/SUCCESS)[m
+   Main PID: 9418 (nginx)[m
+      Tasks: 3 (limit: 3427)[m
+     Memory: 21.3M[m
+     CGroup: /system.slice/custom-nginx.service[m
+             ├─9418 nginx: master process /usr/sbin/nginx[m
+             ├─9419 nginx: worker process[m
+             └─9420 nginx: worker process[m
+[m
+дек 21 22:46:35 codeby systemd[1]: custom-nginx.service: Succeeded.[m
+дек 21 22:46:35 codeby systemd[1]: Stopped Custom Nginx Service.[m
+дек 21 22:46:35 codeby systemd[1]: Starting Custom Nginx Service...[m
+дек 21 22:46:35 codeby systemd[1]: custom-nginx.service: Can't open PID file /run/nginx.pid (yet?) after start: Operation not permitted[m
+дек 21 22:46:35 codeby systemd[1]: Started Custom Nginx Service.[m
+[K[?1l>]0;ubuntu2@codeby: ~[01;32mubuntu2@codeby[00m:[01;34m~[00m$ systemctl status custom-nginx[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kscript nginx-log.txtystemctl status custom-nginx[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@udo systemctl start[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pystemctl status[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pcript nginx-log.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Ksystemctl status custom-nginx[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksystemctl status custom-nginx[1P custom-nginx[1P custom-nginx[1P custom-nginx[1P custom-nginx[1P custom-nginx[1P custom-nginxr custom-nginxe custom-nginxs custom-nginxt custom-nginxa custom-nginxr custom-nginxt custom-nginx
+[1;31m==== AUTHENTICATING FOR org.freedesktop.systemd1.manage-units ===
+[0mAuthentication is required to restart 'custom-nginx.service'.
+Authenticating as: ubuntu2,,, (ubuntu2)
+Password: 
+[1;31m==== AUTHENTICATION COMPLETE ===
+[0m]0;ubuntu2@codeby: ~[01;32mubuntu2@codeby[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2025-12-21 22:48:58+03:00 [COMMAND_EXIT_CODE="0"]
